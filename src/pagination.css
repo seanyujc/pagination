@@ -1,0 +1,49 @@
+/*分页样式*/
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('./fonts/iconfont.eot');
+    src: url('./fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/iconfont.woff') format('woff'),
+    url('./fonts/iconfont.ttf') format('truetype')
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:12px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.page.navigation {
+    text-align: center;
+    margin: 26px auto 69px;
+}
+
+.page.navigation ul {
+    display: inline-block;
+}
+
+.page.navigation li {
+    display: inline;
+}
+
+.page.navigation li a, .page.navigation li > span {
+    font-size: 12px;
+    color: #0e0f0f;
+    position: relative;
+    float: left;
+    padding: 4px 8px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+}
+
+.page.navigation li a.current {
+    color: #4ca9ec;
+}
+
+.page.navigation .previous, .page.navigation .next {
+    background-color: #4ac9ec;
+    color: white;
+    font-size: 14px;
+    padding: 2px 4px;
+}
