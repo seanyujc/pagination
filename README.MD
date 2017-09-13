@@ -1,4 +1,5 @@
 # USAGE
+ 将dist目录放入你的项目中 
  ### 在header中引入样式文件"styles.css" 
 ``` html 
  <link rel="stylesheet" href="${basePath}/dist/styles.css?version=">
